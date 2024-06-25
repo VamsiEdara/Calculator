@@ -44,9 +44,12 @@ form .display {
 form .display input {
   text-align: right;
   flex: 1;
-  font-size: 45px;
+  font-size: 40px;
   box-shadow: none;
 }
 form input.equal {
   width: 145px;
+}
+form input.operator {
+  color: #33ffd8;
 }
