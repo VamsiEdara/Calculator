@@ -6,7 +6,7 @@
 }
 h1 {
   padding: 30px 0;
-  color: purple;
+  color: blue;
   text-align: center;
 }
 .container {
@@ -21,4 +21,18 @@ h1 {
   background: #3a4452;
   padding: 20px;
   border-radius: 10px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
 }
